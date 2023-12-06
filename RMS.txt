@@ -1,0 +1,1403 @@
+#Restaurant Management System
+#Taleb Ibne Hossain Khan: 191002-101
+
+#Menu
+
+function Menu()
+
+{
+
+printf "\n\t1. Breakfast"
+
+printf "\n\t2. Lunch"
+
+printf "\n\t3. Dinner"
+
+printf "\n\t4. Snacks"
+
+printf "\n\t5. Dessert"
+
+printf "\n\t6. Drinks"
+
+printf "\n\t7. Biryani"
+
+
+
+
+
+printf "\n       10. Exit"
+
+printf "\n============================================="
+
+
+
+}
+
+
+
+#Biriyani
+
+function Biryani()
+
+{
+
+	printf "\n\t1. Kacchi                   170/-"
+
+	printf "\n\t2. Tehari                   100/-"
+
+	printf "\n\t3. Chicken Biryani          130/-"
+
+	printf "\n\t4. Beef Biryani             140/-"
+
+	
+
+	printf "\n       10. Exit"
+
+	printf "\n============================================="
+
+
+
+	#Testing Portion.......................
+
+printf "\nEnter Your Choice : "
+
+read choosed
+
+
+
+	if(($choosed==10))
+
+	then
+
+		Exit
+
+	elif(($choosed==1))
+
+	then		
+
+		printf "\nQuantity : "
+
+		read q
+
+		price=$(($q*170))
+
+		printf "Price is = %d/-" "$price"
+
+		Total price
+
+		Exit
+
+
+
+	elif(($choosed==2))
+
+	then		
+
+		printf "\nQuantity : "
+
+		read q
+
+		price=$(($q*100))
+
+		printf "Price is = %d/-" "$price"
+
+		Total price
+
+		Exit
+
+
+
+	elif(($choosed==3))
+
+	then		
+
+		printf "\nQuantity : "
+
+		read q
+
+		price=$(($q*130))
+
+		printf "Price is = %d/-" "$price"
+
+		Total price
+
+		Exit
+
+
+
+	elif(($choosed==4))
+
+	then	
+
+		printf "\nQuantity : "
+
+		read q
+
+		price=$(($q*140))
+
+		printf "Price is = %d/-" "$price"
+
+		Total price
+
+		Exit
+
+
+
+	fi
+
+#Testing Finishes Here...................
+
+
+
+}
+
+
+
+#Breakfast Items
+
+function Breakfast()
+
+{
+
+	printf "\n\t1. Tandori Roti      15/-"
+
+	printf "\n\t2. Nan               20/-"
+
+	printf "\n\t3. Parata            06/-"
+
+	printf "\n\t4. Dal               05/-"
+
+	printf "\n\t5. Mixed Vegetable   10/-"
+
+	printf "\n\t6. Halwa             10/-"
+
+	printf "\n\t7. Luchi             10/-"
+
+	printf "\n\t8. Fried Egg         10/-"
+
+	printf "\n\t9. Omelete           10/-"
+
+	printf "\n       10. Exit"
+
+
+
+	printf "\n============================================="
+
+
+
+
+
+#Testing Portion.........................
+
+printf "\nEnter Your Choice : "
+
+read choosed
+
+
+
+	if(($choosed==10))
+
+	then
+
+		Exit
+
+	elif(($choosed==1))
+
+	then		
+
+		printf "\nQuantity : "
+
+		read q
+
+		price=$(($q*15))
+
+		printf "Price is = %d/-" "$price"
+
+		Total price
+
+		Exit
+
+
+
+	elif(($choosed==2))
+
+	then		
+
+		printf "\nQuantity : "
+
+		read q
+
+		price=$(($q*20))
+
+		printf "Price is = %d/-" "$price"
+
+		Total price
+
+		Exit
+
+
+
+	elif(($choosed==3))
+
+	then		
+
+		printf "\nQuantity : "
+
+		read q
+
+		price=$(($q*6))
+
+		printf "Price is = %d/-" "$price"
+
+		Total price
+
+		Exit
+
+
+
+	elif(($choosed==4))
+
+	then	
+
+		printf "\nQuantity : "
+
+		read q
+
+		price=$(($q*5))
+
+		printf "Price is = %d/-" "$price"
+
+		Total price
+
+		Exit
+
+
+
+	elif(($choosed==5))
+
+	then		
+
+		printf "\nQuantity : "
+
+		read q
+
+		price=$(($q*10))
+
+		printf "Price is = %d/-" "$price"
+
+		Total price
+
+		Exit
+
+
+
+	elif(($choosed==6))
+
+	then		
+
+		printf "\nQuantity : "
+
+		read q
+
+		price=$(($q*10))
+
+		printf "Price is = %d/-" "$price"
+
+		Total price
+
+		Exit
+
+
+
+	elif(($choosed==7))
+
+	then		
+
+		printf "\nQuantity : "
+
+		read q
+
+		price=$(($q*10))
+
+		printf "Price is = %d/-" "$price"
+
+		Total price
+
+		Exit
+
+	elif(($choosed==8))
+
+	then	
+
+		printf "\nQuantity : "
+
+		read q
+
+		price=$(($q*10))
+
+		printf "Price is = %d/-" "$price"
+
+		Total price
+
+		Exit
+
+
+
+	elif(($choosed==9))
+
+	then	
+
+		printf "\nQuantity : "
+
+		read q
+
+		price=$(($q*10))
+
+		printf "Price is = %d/-" "$price"
+
+		Total price
+
+		Exit
+
+	fi
+
+
+
+#Testing Ends Here...............................
+
+
+
+}
+
+echo ""
+
+
+
+#Lunch Items
+
+function Lunch()
+
+{
+
+	printf "\n\t1. Kacchi Biriyani (Kabab+Egg)                     90/-"
+
+	printf "\n\t2. Chicken Biriyani (Kababa+Egg)                   90/-"
+
+	printf "\n\t3. Plain Polaw                                     30/-"
+
+	printf "\n\t4. Chicken Bhuna Khichuri (With Kaba+Egg)          90/-"
+
+	printf "\n\t5. Mutton Bhuna Khichuri (With Kabab+Egg)          90/-"
+
+	printf "\n\t6. Plain Rice                                      10/-"
+
+	printf "\n\t7. Pabda Fish                                      30/-"
+
+	printf "\n\t8. Lobstar Big/Small                               30/-"
+
+	printf "\n\t9. Koi Fish"
+
+
+
+	printf "\n       10. Exit"
+
+	printf "\n============================================="
+
+
+
+#Testing Portion............................
+
+printf "\nEnter Your Choice : "
+
+read choosed
+
+
+
+	if(($choosed==10))
+
+	then
+
+		Exit
+
+	elif(($choosed==1))
+
+	then		
+
+		printf "\nQuantity : "
+
+		read q
+
+		price=$(($q*90))
+
+		printf "Price is = %d/-" "$price"
+
+		Total price
+
+		Exit
+
+
+
+	elif(($choosed==2))
+
+	then		
+
+		printf "\nQuantity : "
+
+		read q
+
+		price=$(($q*90))
+
+		printf "Price is = %d/-" "$price"
+
+		Total price
+
+		Exit
+
+
+
+	elif(($choosed==3))
+
+	then		
+
+		printf "\nQuantity : "
+
+		read q
+
+		price=$(($q*30))
+
+		printf "Price is = %d/-" "$price"
+
+		Total price
+
+		Exit
+
+
+
+	elif(($choosed==4))
+
+	then	
+
+		printf "\nQuantity : "
+
+		read q
+
+		price=$(($q*90))
+
+		printf "Price is = %d/-" "$price"
+
+		Total price
+
+		Exit
+
+
+
+	elif(($choosed==5))
+
+	then		
+
+		printf "\nQuantity : "
+
+		read q
+
+		price=$(($q*90))
+
+		printf "Price is = %d/-" "$price"
+
+		Total price
+
+		Exit
+
+
+
+	elif(($choosed==6))
+
+	then		
+
+		printf "\nQuantity : "
+
+		read q
+
+		price=$(($q*10))
+
+		printf "Price is = %d/-" "$price"
+
+		Total price
+
+		Exit
+
+
+
+	elif(($choosed==7))
+
+	then		
+
+		printf "\nQuantity : "
+
+		read q
+
+		price=$(($q*10))
+
+		printf "Price is = %d/-" "$price"
+
+		Total price
+
+		Exit
+
+	elif(($choosed==8))
+
+	then	
+
+		printf "\nQuantity : "
+
+		read q
+
+		price=$(($q*30))
+
+		printf "Price is = %d/-" "$price"
+
+		Total price
+
+		Exit
+
+
+
+	elif(($choosed==9))
+
+	then	
+
+		printf "\nQuantity : "
+
+		read q
+
+		price=$(($q*30))
+
+		printf "Price is = %d/-" "$price"
+
+		Total price
+
+		Exit
+
+	fi
+
+
+
+#Testing Ends Here...............................
+
+
+
+
+
+}
+
+echo ""
+
+
+
+#Dinner Items
+
+function Dinner()
+
+{
+
+	printf "\n\t1. Goats Brain                                     60/-"
+
+	printf "\n\t2. Chicken Bhuna Khichuri                          80/-"
+
+	printf "\n\t3. Mutton Bhuna Khichuri                           80/-"
+
+	printf "\n\t4. Chicken Liver/Kolija                            40/-"
+
+	printf "\n\t5. Goats Liver/Kolija                              50/-"
+
+	printf "\n\t6. Chicken Bhuna                                   10/-"
+
+	printf "\n\t7. Hilsha Fish                                     30/-"
+
+	printf "\n\t8. Rui Fish                                        60/-"
+
+	printf "\n\t9. Molay/Kaski Fish                                60/-"
+
+
+
+	printf "\n       10. Exit"
+
+	printf "\n============================================="
+
+
+
+#Testing Portion.......................
+
+printf "\nEnter Your Choice : "
+
+read choosed
+
+
+
+	if(($choosed==10))
+
+	then
+
+		Exit
+
+	elif(($choosed==1))
+
+	then		
+
+		printf "\nQuantity : "
+
+		read q
+
+		price=$(($q*60))
+
+		printf "Price is = %d/-" "$price"
+
+		Total price
+
+		Exit
+
+
+
+	elif(($choosed==2))
+
+	then		
+
+		printf "\nQuantity : "
+
+		read q
+
+		price=$(($q*80))
+
+		printf "Price is = %d/-" "$price"
+
+		Total price
+
+		Exit
+
+
+
+	elif(($choosed==3))
+
+	then		
+
+		printf "\nQuantity : "
+
+		read q
+
+		price=$(($q*80))
+
+		printf "Price is = %d/-" "$price"
+
+		Total price
+
+		Exit
+
+
+
+	elif(($choosed==4))
+
+	then	
+
+		printf "\nQuantity : "
+
+		read q
+
+		price=$(($q*40))
+
+		printf "Price is = %d/-" "$price"
+
+		Total price
+
+		Exit
+
+
+
+	elif(($choosed==5))
+
+	then		
+
+		printf "\nQuantity : "
+
+		read q
+
+		price=$(($q*50))
+
+		printf "Price is = %d/-" "$price"
+
+		Total price
+
+		Exit
+
+
+
+	elif(($choosed==6))
+
+	then		
+
+		printf "\nQuantity : "
+
+		read q
+
+		price=$(($q*10))
+
+		printf "Price is = %d/-" "$price"
+
+		Total price
+
+		Exit
+
+
+
+	elif(($choosed==7))
+
+	then		
+
+		printf "\nQuantity : "
+
+		read q
+
+		price=$(($q*30))
+
+		printf "Price is = %d/-" "$price"
+
+		Total price
+
+		Exit
+
+	elif(($choosed==8))
+
+	then	
+
+		printf "\nQuantity : "
+
+		read q
+
+		price=$(($q*60))
+
+		printf "Price is = %d/-" "$price"
+
+		Total price
+
+		Exit
+
+
+
+	elif(($choosed==9))
+
+	then	
+
+		printf "\nQuantity : "
+
+		read q
+
+		price=$(($q*60))
+
+		printf "Price is = %d/-" "$price"
+
+		Total price
+
+		Exit
+
+	fi
+
+
+
+#Testing Ends Here...............................
+
+
+
+}
+
+echo ""
+
+echo ""
+
+
+
+
+
+#Snacks
+
+function Snacks()
+
+{
+
+	printf "\n\t1. Moghol Porata                                   08/-"
+
+	printf "\n\t2. Shami/Jhali Kabab                               40/-"
+
+	printf "\n\t3. Singara                                         05/-"
+
+	printf "\n\t4. Chicken Samucha                                 05/-"
+
+
+
+	printf "\n       10. Exit"
+
+	printf "\n============================================="
+
+
+
+#Testing Portion.......................
+
+printf "\nEnter Your Choice : "
+
+read choosed
+
+
+
+	if(($choosed==10))
+
+	then
+
+		Exit
+
+	elif(($choosed==1))
+
+	then		
+
+		printf "\nQuantity : "
+
+		read q
+
+		price=$(($q*8))
+
+		printf "Price is = %d/-" "$price"
+
+		Total price
+
+		Exit
+
+
+
+	elif(($choosed==2))
+
+	then		
+
+		printf "\nQuantity : "
+
+		read q
+
+		price=$(($q*40))
+
+		printf "Price is = %d/-" "$price"
+
+		Total price
+
+		Exit
+
+
+
+	elif(($choosed==3))
+
+	then		
+
+		printf "\nQuantity : "
+
+		read q
+
+		price=$(($q*5))
+
+		printf "Price is = %d/-" "$price"
+
+		Total price
+
+		Exit
+
+
+
+	elif(($choosed==4))
+
+	then	
+
+		printf "\nQuantity : "
+
+		read q
+
+		price=$(($q*5))
+
+		printf "Price is = %d/-" "$price"
+
+		Total price
+
+		Exit
+
+
+
+	fi
+
+#Testing Finishes Here...................
+
+
+
+}
+
+
+
+echo ""
+
+echo ""
+
+
+
+#Dessert
+
+function Dessert()
+
+{
+
+	printf "\n\t1. Faluda                                          50/-"
+
+	printf "\n\t2. Pudding                                         50/-"
+
+	printf "\n\t3. Firni                                           50/-"
+
+	printf "\n\t4. Curd                                            50/-"
+
+
+
+	printf "\n       10. Exit"
+
+	printf "\n============================================="
+
+
+
+#Testing Portion.......................
+
+printf "\nEnter Your Choice : "
+
+read choosed
+
+
+
+	if(($choosed==10))
+
+	then
+
+		Exit
+
+	elif(($choosed==1))
+
+	then		
+
+		printf "\nQuantity : "
+
+		read q
+
+		price=$(($q*50))
+
+		printf "Price is = %d/-" "$price"
+
+		Total price
+
+		Exit
+
+
+
+	elif(($choosed==2))
+
+	then		
+
+		printf "\nQuantity : "
+
+		read q
+
+		price=$(($q*50))
+
+		printf "Price is = %d/-" "$price"
+
+		Total price
+
+		Exit
+
+
+
+	elif(($choosed==3))
+
+	then		
+
+		printf "\nQuantity : "
+
+		read q
+
+		price=$(($q*50))
+
+		printf "Price is = %d/-" "$price"
+
+		Total price
+
+		Exit
+
+
+
+	elif(($choosed==4))
+
+	then	
+
+		printf "\nQuantity : "
+
+		read q
+
+		price=$(($q*50))
+
+		printf "Price is = %d/-" "$price"
+
+		Total price
+
+		Exit
+
+
+
+	fi
+
+#Testing Finishes Here...................
+
+
+
+}
+
+
+
+echo ""
+
+echo ""
+
+
+
+#Drinks
+
+function Drinks()
+
+{
+
+	printf "\n\t1. Soft Drinks                                     15/-"
+
+	printf "\n\t2. Lasci                                           30/-"
+
+	printf "\n\t3. Borhani                                         30/-"
+
+	printf "\n\t4. Cold Coffee                                     40/-"
+
+	printf "\n\t5. Coffee                                          20/-"
+
+	printf "\n\t6. Tea                                             10/-"
+
+	printf "\n\t7. Water Bottle                                    15/-"
+
+
+
+	printf "\n       10. Exit"
+
+	printf "\n============================================="
+
+
+
+
+
+#Testing Portion.......................
+
+printf "\nEnter Your Choice : "
+
+read choosed
+
+
+
+	if(($choosed==10))
+
+	then
+
+		Exit
+
+	elif(($choosed==1))
+
+	then		
+
+		printf "\nQuantity : "
+
+		read q
+
+		price=$(($q*15))
+
+		printf "Price is = %d/-" "$price"
+
+		Total price
+
+		Exit
+
+
+
+	elif(($choosed==2))
+
+	then		
+
+		printf "\nQuantity : "
+
+		read q
+
+		price=$(($q*30))
+
+		printf "Price is = %d/-" "$price"
+
+		Total price
+
+		Exit
+
+
+
+	elif(($choosed==3))
+
+	then		
+
+		printf "\nQuantity : "
+
+		read q
+
+		price=$(($q*30))
+
+		printf "Price is = %d/-" "$price"
+
+		Total price
+
+		Exit
+
+
+
+	elif(($choosed==4))
+
+	then	
+
+		printf "\nQuantity : "
+
+		read q
+
+		price=$(($q*40))
+
+		printf "Price is = %d/-" "$price"
+
+		Total price
+
+		Exit
+
+
+
+	elif(($choosed==5))
+
+	then		
+
+		printf "\nQuantity : "
+
+		read q
+
+		price=$(($q*20))
+
+		printf "Price is = %d/-" "$price"
+
+		Total price
+
+		Exit
+
+
+
+	elif(($choosed==6))
+
+	then		
+
+		printf "\nQuantity : "
+
+		read q
+
+		price=$(($q*10))
+
+		printf "Price is = %d/-" "$price"
+
+		Total price
+
+		Exit
+
+
+
+	elif(($choosed==7))
+
+	then		
+
+		printf "\nQuantity : "
+
+		read q
+
+		price=$(($q*15))
+
+		printf "Price is = %d/-" "$price"
+
+		Total price
+
+		Exit
+
+	fi
+
+}
+
+
+
+echo ""
+
+echo ""
+
+
+
+#Exit
+
+function Exit()
+
+{
+
+	printf "\n\t1. Go Back To Main Menu"
+
+	printf "\n\t2. Exit"
+
+
+
+	printf "\n\nEnter Your Choice : "
+
+	read choice 
+
+
+
+	if(($choice==1))
+
+	then
+
+		Menu
+
+	else
+
+		exit
+
+	fi
+
+}
+
+
+
+function Total()
+
+{
+
+sum=$(($sum+$1))
+
+printf "\n\nTotal Price Is %d/-\n" "$sum"
+
+}
+
+
+
+
+
+
+
+printf "\n======= Restaurant Management System =======\n"
+
+
+
+Menu
+
+
+
+while true
+
+do
+
+
+
+
+
+	printf "\n\nEnter Your Choice : "
+
+	read choice
+
+	
+
+
+
+
+
+	if(($choice==1))
+
+	then
+
+		Breakfast
+
+
+
+	elif(($choice==2))
+
+	then
+
+		Lunch	
+
+
+
+	elif(($choice==3))
+
+	then
+
+		Dinner
+
+
+
+	elif(($choice==4))
+
+	then
+
+		Snacks
+
+
+
+	elif(($choice==5))
+
+	then
+
+		Dessert
+
+
+
+	elif(($choice==6))
+
+	then
+
+		Drinks	
+
+
+
+	elif(($choice==7))
+
+	then
+
+		Biryani
+
+
+
+	elif(($choice==10))
+
+	then
+
+		exit
+
+	
+
+	else 
+
+		Menu
+
+	fi
+
+done
+
+
+
+
+
+
+
+
+
+
+
